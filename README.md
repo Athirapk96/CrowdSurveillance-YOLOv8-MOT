@@ -10,4 +10,14 @@ Check out the example output (output.mp4) included in the repository for a quick
 
 https://github.com/Athirapk96/CrowdSurveillance-YOLOv8-MOT/assets/122516367/ada4cb61-36d2-4a44-b9fb-49dbb03102fb
 
-This repository focuses on the integration of YOLOv8 object detection with SORT, BOTSORT and ByteTrack trackers. The developed pipeline not only evaluates the tracking performance of each algorithm but also incorporates functionalities to determine crowd count and direction.
+## Results
+
+ **Comparison of Trackers**:
+
+SORT: Simple, fast, but less robust in crowded scenes
+BOTSORT: Improved accuracy for object re-identification
+ByteTrack: State-of-the-art multi-object tracking, especially strong in dense scenes
+
+**Performance Metrics**:
+Tracking accuracy and crowd counting results provided in output logs
+Demo video [output.mp4] showcases tracker annotations
